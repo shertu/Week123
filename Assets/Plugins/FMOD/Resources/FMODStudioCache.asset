@@ -32,12 +32,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: FMOD/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637095207777566137
+  lastModified: 637095352787031547
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 688
+    Value: 730
   Exists: 1
+--- !u!114 &-2093990230269196313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Bowl
+  m_EditorClassIdentifier: 
+  Path: event:/Bowl
+  guid: 613074b94e952947a5da4c4b24847d50
+  Banks:
+  - {fileID: 2014659054989182981}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 255000
 --- !u!114 &-35169686345620957
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70,15 +93,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: -2828768548444781331}
-  - {fileID: 5573871247849512595}
-  EditorEvents: []
+  - {fileID: 2014659054989182981}
+  EditorEvents:
+  - {fileID: -2093990230269196313}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 5573871247849512595}
+  - {fileID: 2014659054989182981}
   StringsBanks:
   - {fileID: -2828768548444781331}
-  stringsBankWriteTime: 637095207777566137
+  stringsBankWriteTime: 637095352787031547
   cacheVersion: 3
+--- !u!114 &2014659054989182981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637095352786841506
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &2552459155155392525
 MonoBehaviour:
   m_ObjectHideFlags: 0
